@@ -782,12 +782,17 @@ font-family: 'Satisfy', cursive;
 /*======================================
 //--//-->   PORTFOLIO
 ======================================*/
+.portfolio-menu{
+    background: darkcyan;
+}
+
 
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 100%    
 }
 
 .work-box:hover img {
@@ -814,17 +819,17 @@ font-family: 'Satisfy', cursive;
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: darkcyan;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: darkcyan;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: darkcyan;
 }
 
 .work-content .w-like .num-like {

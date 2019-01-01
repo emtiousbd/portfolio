@@ -113,5 +113,15 @@
 			}
 		}
 	});
+    
 
+    
+    // ******** Mixer***********
+    var containerEl = document.querySelector('#work');
+    var mixer = mixitup(containerEl);
+    
+    /**** Scrool Animated **/
+    new WOW().init();
+    
+    
 })(jQuery);
